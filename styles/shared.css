@@ -1,0 +1,60 @@
+body {
+  font-family: "Quicksand", sans-serif;
+}
+
+.header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 60px;
+}
+
+.header__logo {
+  display: block;
+  padding: 12px 0;
+  color: #f5f3a0;
+  font-family: "Oleo Script", sans-serif;
+  font-size: 50px;
+  text-transform: uppercase;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.8);
+}
+
+.header__nav {
+  display: flex;
+  gap: 30px;
+}
+
+.nav__link {
+  display: block;
+  padding: 12px;
+  color: #fffb00;
+  font-size: 20px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+}
+
+.nav__link:hover,
+.nav__link:focus {
+  color: #4d4d4d;
+  background-color: #fffb00;
+}
+
+.footer {
+  padding: 20px 0;
+  background: linear-gradient(70deg, #3b4140, #313635);
+}
+
+.footer__list {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+
+.footer__item {
+  width: 60px;
+  height: 60px;
+}
